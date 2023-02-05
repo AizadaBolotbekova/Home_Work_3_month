@@ -1,0 +1,74 @@
+
+/*html,*/
+/*body {*/
+/*    height: 100%;*/
+/*    line-height: 1;*/
+/*    font-size: 24px;*/
+/*    background-color: antiquewhite;*/
+/*    color: aliceblue;*/
+/*    font-family: Arial, "Helvetica Neue", Helvetica*/
+/*    sans-serif;*/
+/*}*/
+/*.wrapper {*/
+/*    min-height: 100%;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+/*.header{*/
+/*    background-color: brown;*/
+/*    padding: 30px;*/
+/*    text-align: center;*/
+/*}*/
+/*.main {*/
+/*    padding: 30px;*/
+/*    flex: 1 0 auto;*/
+/*}*/
+/*.footer {*/
+/*    background-color: darkviolet;*/
+/*    padding: 30px;*/
+/*    text-align: center;*/
+/*}*/
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    background-color: darkviolet;
+    width: 100%;
+}
+footer {
+    height: 100px;
+    background-color: brown;
+    width: 100%;
+}
+.news {
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.card {
+    width: 200px;
+    padding: 5px;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+}
